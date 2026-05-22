@@ -5,8 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // Add this line right here! A single slash means "root domain"
-    base: '/', 
+    // CHANGE THIS LINE right here:
+    base: '/viramalfoy.github.io/', 
     
     plugins: [react(), tailwindcss()],
     resolve: {
